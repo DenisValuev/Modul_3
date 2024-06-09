@@ -12,6 +12,10 @@
             Console.WriteLine("My age is {0}", MyAge);
             Console.WriteLine("Do i have a pet? {0}", HaveIAPet);
             Console.WriteLine("My shoe size is {0}", MyShoeSize);
+
+            // Минимальное и максимальное значение типа int
+            Console.WriteLine("IntMin {0}", int.MinValue);
+            Console.WriteLine("IntMax {0}", int.MaxValue);
         }
     }
 }
